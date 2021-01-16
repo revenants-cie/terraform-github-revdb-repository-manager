@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+modified_files=$(terraform fmt -recursive)
+
+for f in ${modified_files}
+do
+  git add "$f"
+done
