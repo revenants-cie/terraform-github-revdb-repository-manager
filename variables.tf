@@ -1,7 +1,10 @@
-variable "name" {}
+variable "name" {
+    description = "This is the name of the repository."
+}
 
 variable "description" {
-  default = "Project"
+  description = "The Github description of the project."
+    default = "Project"
 }
 
 variable "default_branch" {
@@ -9,35 +12,42 @@ variable "default_branch" {
 }
 
 variable "private" {
+    description = "Whether the repositoriy is open for the public."
   default = true
 }
 
 variable "has_branch_protection" {
+    description = "Whether to have branch protection or not, includes required reviewers and passing tests."
   default = true
 }
 
 variable "has_issues" {
+    description = "To support issues reported against the repository."
   default = true
 }
 
 variable "has_downloads" {
+    description = "To support downloads."
   default = false
 }
 
 variable "homepage_url" {
+    description = "Project homepage."
   default = "https://revdb.io"
 }
 
 variable "allow_rebase_merge" {
+    description = "When set to true, you can rebase + merge."
   default = true
 }
 
 variable "allow_squash_merge" {
+    description = "When set to true, you can squash + merge."
   default = true
 }
 
 variable "organization" {
-  description = "GitHub organization"
+  description = "GitHub organization's name, where the repository will be located."
 }
 
 variable "ssh_key_path" {
