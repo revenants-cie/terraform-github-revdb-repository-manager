@@ -1,7 +1,12 @@
 RevDB GitHub Module
 ================
 
-[![Build Status](https://travis-ci.com/revenants-cie/terraform-aws-revdb-github.svg?branch=master)](https://travis-ci.com/revenants-cie/terraform-aws-revdb-github)
+[![Build Status](https://travis-ci.com/revenants-cie/terraform-github-revdb-repository-manager.svg?branch=master)](https://travis-ci.com/revenants-cie/terraform-github-revdb-repository-manager)
+
+Blog post
+=========
+
+Take a look at the blog post that explains how to use the module on [revdb.io blog](https://revdb.io/2021/01/16/github-repositories-with-cookiecutters-using-terraform/).
 
 Description
 =============
