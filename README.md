@@ -1,7 +1,7 @@
 RevDB GitHub Module
 ================
 
-[![Build Status](https://travis-ci.com/revenants-cie/terraform-aws-revdb-github.svg?branch=master)](https://travis-ci.com/revenants-cie/terraform-aws-revdb-github)
+[![Build Status](https://travis-ci.com/revenants-cie/terraform-github-revdb-repository-manager.svg?branch=master)](https://travis-ci.com/revenants-cie/terraform-github-revdb-repository-manager)
 
 Blog post
 =========
